@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-11T11:09:21.118Z</updated>
+  <updated>2019-01-11T11:34:31.113Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,21 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>test doc</title>
     <link href="http://yoursite.com/2019/01/11/test/"/>
     <id>http://yoursite.com/2019/01/11/test/</id>
     <published>2019-01-11T11:07:33.794Z</published>
-    <updated>2019-01-11T11:09:21.118Z</updated>
+    <updated>2019-01-11T11:34:31.113Z</updated>
     
-    <content type="html"><![CDATA[<p>title: test doc</p><h4 id="test-doc"><a href="#test-doc" class="headerlink" title="test doc"></a>test doc</h4><p>  <strong>bold</strong></p><ul><li>first</li><li>second</li><li><p>third</p><blockquote><p>npm install hexo-generator-feed –save</p></blockquote></li></ul>]]></content>
+    <content type="html"><![CDATA[<h4 id="test-doc"><a href="#test-doc" class="headerlink" title="test doc"></a>test doc</h4><p>  <strong>bold</strong></p><ul><li>first</li><li>second</li><li><p>third</p><blockquote><p>npm install hexo-generator-feed –save</p></blockquote></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;title: test doc&lt;/p&gt;
-&lt;h4 id=&quot;test-doc&quot;&gt;&lt;a href=&quot;#test-doc&quot; class=&quot;headerlink&quot; title=&quot;test doc&quot;&gt;&lt;/a&gt;test doc&lt;/h4&gt;&lt;p&gt;  &lt;strong&gt;bold&lt;/strong&gt;
+        &lt;h4 id=&quot;test-doc&quot;&gt;&lt;a href=&quot;#test-doc&quot; class=&quot;headerlink&quot; title=&quot;test doc&quot;&gt;&lt;/a&gt;test doc&lt;/h4&gt;&lt;p&gt;  &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;first&lt;/li
       
     
     </summary>
