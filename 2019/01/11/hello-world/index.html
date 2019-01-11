@@ -68,7 +68,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/11/hello-world/" data-id="cjqrv09w700000kztpcm8tooi" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/01/11/hello-world/" data-id="cjqrxxw8h00003jzt1we9bv1j" class="article-share-link">Share</a>
       
     </footer>
 
@@ -76,11 +76,44 @@
 
   
     
+  <nav class="article-nav">
+    
+      <a href="/2019/01/11/test/" class="article-nav-link">
+        <strong class="article-nav-caption">Newer posts</strong>
+        <div class="article-nav-title">
+          
+            (no title)
+          
+        </div>
+      </a>
+    
+    
+  </nav>
+
 
   
 
   
     
+  <div class="gitalk" id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+  <script type="text/javascript">
+      var gitalk = new Gitalk({
+        clientID: '319c9d77981e1997ea8d',
+        clientSecret: '4145d556d976cb3fa0b94555992c132cbae15175',
+        repo: 'gitalk',
+        owner: 'themycode',
+        admin: ['themycode'],
+        // id: location.pathname,      // Ensure uniqueness and length less than 50
+        id: md5(location.pathname),
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+  gitalk.render('gitalk-container')
+  </script>
+
   
 
 </article>
@@ -108,7 +141,7 @@
 <nav class="navbar">
   
     <div class="logo">
-      <a href="/"><img src="/images/hexo.svg" alt="TheMyCode"></a>
+      <a href="/"><img src="/images/shark.svg" alt="TheMyCode"></a>
     </div>
   
   <ul class="nav nav-main">
@@ -164,6 +197,8 @@
   <script src="/fancybox/jquery.fancybox.min.js"></script>
 
 
+
+  <script src="/js/search.js"></script>
 
 
 <script src="/js/ocean.js"></script>

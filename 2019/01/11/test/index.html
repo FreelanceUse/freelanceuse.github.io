@@ -11,7 +11,6 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
-    Archives: 2019 |
     
     TheMyCode</title>
   
@@ -27,62 +26,88 @@
 <body>
 <main class="content">
   <section class="outer">
-  <article class="articles">
+  <article id="post-test" class="article article-type-post" itemscope="" itemprop="blogPost">
+
+  <div class="article-inner">
     
-    <h1 class="page-type-title">2019</h1>
 
     
-    
-    
-      
-      
+      <div class="article-meta">
+        <a href="/2019/01/11/test/" class="article-date">
+  <time datetime="2019-01-11T11:07:33.794Z" itemprop="datePublished">2019-01-11</time>
+</a>
         
-        
-    <div class="archives-wrap">
-      <div class="archive-year-wrap">
-        <a href="/archives/2019" class="archive-year">2019</a>
       </div>
-      <div class="archives">
-        
-        <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/01/11/test/" class="archive-article-date">
-  <time datetime="2019-01-11T11:07:33.794Z" itemprop="datePublished">01/11</time>
-</a>
-      
-    </header>
     
-  </div>
-</article>
-        
-      
-      
-        <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2019/01/11/hello-world/" class="archive-article-date">
-  <time datetime="2019-01-11T09:23:31.167Z" itemprop="datePublished">01/11</time>
-</a>
-      
-  
-    <h2 itemprop="name">
-      <a class="archive-article-title" href="/2019/01/11/hello-world/">Hello World</a>
-    </h2>
-  
 
-    </header>
-    
-  </div>
-</article>
-        
-        
-      </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+      
+        <p>title: test doc</p>
+<h4 id="test-doc"><a href="#test-doc" class="headerlink" title="test doc"></a>test doc</h4><p>  <strong>bold</strong></p>
+<ul>
+<li>first</li>
+<li>second</li>
+<li><p>third</p>
+<blockquote>
+<p>npm install hexo-generator-feed –save</p>
+</blockquote>
+</li>
+</ul>
+
+      
     </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/01/11/test/" data-id="cjqrxxw8l00013jztzlv2x255" class="article-share-link">Share</a>
+      
+    </footer>
+
+  </div>
+
+  
     
+  <nav class="article-nav">
+    
+    
+      <a href="/2019/01/11/hello-world/" class="article-nav-link">
+        <strong class="article-nav-caption">Olde posts</strong>
+        <div class="article-nav-title">Hello World</div>
+      </a>
+    
+  </nav>
+
+
   
+
   
-</article></section>
+    
+  <div class="gitalk" id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+  <script type="text/javascript">
+      var gitalk = new Gitalk({
+        clientID: '319c9d77981e1997ea8d',
+        clientSecret: '4145d556d976cb3fa0b94555992c132cbae15175',
+        repo: 'gitalk',
+        owner: 'themycode',
+        admin: ['themycode'],
+        // id: location.pathname,      // Ensure uniqueness and length less than 50
+        id: md5(location.pathname),
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+  gitalk.render('gitalk-container')
+  </script>
+
+  
+
+</article>
+
+
+
+</section>
   <footer class="footer">
   
   <div class="outer">
